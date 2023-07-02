@@ -12,7 +12,7 @@ const BLOG = {
     keywords: ['Blog', 'Craft.do', 'Craft Docs', 'Next.js', 'TailwindCSS']
   },
   analytics: {
-    provider: '', // Currently support Umami, fill with 'umami' to enable or leave it empty to disable it.
+    provider: 'umami', // Currently support Umami, fill with 'umami' to enable or leave it empty to disable it.
     umamiConfig: {
       scriptUrl: '', // The url of your Umami script
       websiteId: '' // The website id of your Umami instance
